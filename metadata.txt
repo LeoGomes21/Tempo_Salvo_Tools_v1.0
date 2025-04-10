@@ -1,0 +1,229 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Tempo Salvo Tools
+qgisMinimumVersion=3.36
+description=Plugin completo para gerenciamento e análise de camadas vetoriais, raster e malhas no QGIS. Permite criar, personalizar, converter, exportar e visualizar camadas em diversos formatos (DXF, KML, KMZ, DAE, etc.). Inclui módulos para curvas de nível, perfis altimétricos, volumes entre MDTs, grades UTM/GEO, e muito mais.
+	🌐
+	Comprehensive plugin for managing and analyzing vector, raster, and mesh layers in QGIS. Allows creation, customization, conversion, export, and 3D visualization of layers in multiple formats (DXF, KML, KMZ, DAE, etc.). Includes modules for contour lines, elevation profiles, volume calculation between DEMs, UTM/GEO grids, and more.
+version=1.0
+author=Leonardo Gomes
+email=leogomes21@gmail.com
+
+about= 	(/◕ヮ◕)/   ♫♫♪ ❤️ QGis ♪♫♫    (＾ｕ＾) 
+	
+	📎 Use a versão do QGis 3.36 ou superior 📎
+	🛠 Veja a baixo a lista de funcionalidades do Plugin🛠
+
+    🧰 Gerenciar Camadas: Linhas
+	📑 Controle da Lista de Camadas
+	🪄 Adicione camadas em um clique
+	📏 Camada de linhas com valores métricos automatizados
+	💾 Salve em múltiplos formatos em um clique
+	🖌 Personalização de rotulagem simplificada por HTML
+	⏫ Exporte a camada de linhas personalizadas para DXF
+	⏫ Exporte a camada de linhas personalizadas para KML
+	🧬 Clone as camadas de linhas
+	🔁 Troque projeção da camada de linha rapidamente
+	🖌 Modifique a cor da linha rapidamente
+	🔄 Altere a espessura da linha rapidamente
+	🔌 Delete camadas com escolha opções de salvamento
+	⏳ Mais funções serão adicionadas 
+	
+	🧰 Gerenciar Camadas: Polígonos
+	📑 Controle da Lista de Camadas
+	🪄 Adicione camadas de Polígonos em um clique
+	📏 Camada de polígonos com valores métricos automatizados
+	⏫ Exporte a camada de polígonos personalizadas para DXF
+	⏫ Exporte a camada de polígonos personalizadas para KML
+	🔁 Troque projeção da camada polígonos rapidamente
+	🖌 Modifique as cores do polígonos rapidamente
+	🔄 Altere a espessura da camada de polígonos rapidamente
+	⏳ Mais funções serão adicionadas 
+	
+	🧰 Gerenciar Camadas: Pontos
+	📑 Controle da Lista de Camadas
+	🪄 Adicione camadas de Pontos em um clique
+	📏 Camada de pontos com valores métricos automatizados
+	⏫ Exporte a camada de pontos personalizadas para DXF
+	⏫ Exporte a camada de pontos personalizadas para KML
+	🔁 Troque projeção da camada pontos rapidamente
+	🖌 Modifique as cores do pontos rapidamente
+	🔄 Altere o tamanho da camada de pontos rapidamente
+	⏳ Mais funções serão adicionadas 
+	
+	🧰 Gerenciar Camadas: Rasters
+	📑 Controle da Lista de Camadas
+	⏫ Exporte a camada Rasters personalizadas para DXF
+	⏫ Exporte a camada Rasters personalizadas para KML
+	✅ Acesso rápido ao Plugin Qgis2threejs
+	⏳ Mais funções serão adicionadas 
+	
+	🧰 Gerenciar Camadas: Malhas
+	📑 Controle da Lista de Camadas
+	⏫ Exporte a camada de Malhas 3D para DXF
+	⏫ Exporte a camada de Malhas 3D para DAE
+	⏫ Exporte a camada de Malhas 3D para STL
+	⏫ Exporte a camada de Malhas 3D para OBJ
+	⏫ Exporte a camada de Malhas personalizadas para KML
+	🧊 Visualize a camada de Malha em 3D personalizada
+	⏳ Mais funções serão adicionadas 
+	
+	📌 Módulo do Plugin: Gerar curvas de Níveis 3D
+	〰️ Crie Curvas de Níveis em 1 clique, com diversas personalizações
+	⏫ Exporte para DXF
+	
+	📌 Módulo do Plugin: Gerar Setas Sobre o MDT
+	➜ Crie Linhas personalizadas em forma de setas sobre o MDT com inclinação
+	⏫ Exporte para DXF
+	
+	📌 Módulo do Plugin: Extrair Cotas de Raster
+	📑 Extraia Camada simples de pontos cotados do MDT
+	📑 Extraia Camada simples de polígonos cotados do MDT
+	📑 Extraia Camada de polígonos estilizadas de acordo com as cores do Raster
+	📑 Extraia Camada de polígonos atribuído cores de acordo com o valor do Raster
+	
+	📌 Módulo do Plugin: Gerar Grade UTM/GEO
+	🌐 Crie grades de molduras UTM com equidistâncias métricas variáveis
+	🌐 Crie grades de molduras adaptáveis a geometria
+	🌐 Crie grades de molduras Geográfica com equidistâncias angulares variáveis
+	⏫ Exporte para DXF
+	⏳ Mais funções serão adicionadas
+	
+	📌 Módulo do Plugin: Exportar Fotos para KMZ
+	📂 Selecione uma pasta com as imagens com georreferencia
+	🌍 Crie Camada KMZ de fotos com geolocalização
+	🖊 Configure a posição do ScreenOverlay
+	📍 Selecione o ícone de Cada foto
+	
+	📌 Módulo do Plugin: Converter Linhas para Polígonos
+	🔄 Converte uma camada de linhas para polígonos com diversos processos unificados
+	
+	📌 Módulo do Plugin: Converter Polígonos para Linhas
+	🔄 Converte uma camada de polígonos para linhas com diversos processos unificados
+	
+	📌 Módulo do Plugin: Operações sobre Linhas
+	📝 Crie ponto sobre a linha com opções de vértices
+	📝 Crie linha segmentadas por comprimento ou por partes
+	📝 Crie polígonos ao logo da linha, quadrado, círculos ou hexágonos
+	
+	📌 Módulo do Plugin: Linhas Dentro de Polígonos
+	📝 Crie linhas dentro de polígonos com direções diversas
+	
+	📌 Módulo do Plugin: Criação de Malhas
+	📝 Crie Malhas em 1 clique
+	
+	📌 Módulo do Plugin: Rasterização de Malhas
+	📝 Crie Camada raster em 1 clique 
+	
+	📌 Módulo do Plugin: Converte para Malhas
+	🔃 Converta Malha DXF 3D FACE para 2DM
+	🔃 Converta Malha STL para 2DM
+	🔃 Converta Mahha DAE para 2DM
+	🔃 Converta Malha OBJ para 2DM
+	
+	📌 Módulo do Plugin: Gerar Platô sobre MDT
+	📝 Crie um platô sobre o MDT a partir de um polígonos
+	📝 Crie estaqueamentos
+	📝 Obtenha Talude, crie camada de coordenadas juntas
+	📈 Vizualize o gráfico do estaqueamento
+	
+	📌 Módulo do Plugin: Calcular Volumes entre MDT's
+	📝 Crie Camada do MDT Corte/Aterro
+	📝 Exporte para Excel
+	
+	📌 Módulo do Plugin: Gráfico de Perfis de MDT's
+	📉 Visualise gráfico de altimetria a partir de linha temporária ou fixa
+	🪬 Exiba o valor da altimetria no Mapa
+	🎢 Vizualize o gráfico de inclinação com espaçamento variável
+	🪬 Exina o valor da inclinação no mapa
+	⏫ Exporte para .png, .jpg, .pdf, .tiff, .sgv e .dxf
+	📝 Crie camada de pontos
+	🪬 Opções de gráfico preto ou branco
+	
+	📌 Módulo do Plugin: Gráfico com Talude 2D
+	📝 Crie estaqueamento a partir de pontos ou linhas
+	🔧 Configure cortes e aterro dinamicamente 
+	🎢 Vizualize o gráfico com talude
+	⏫ Exporte o gráfico para DXF
+	
+	📌 Módulo do Plugin: Gráficos de Estruturas Solar
+	📐 Calcule inclinação, comprimento da estaca, e outras
+	🎢 Vizualize o gráfico da estrutura e controle as alturas das estacas
+	⏫ Exporte camada de alturas das estacas  para DXF
+	⏳ Mais funções serão adicionadas 
+	
+	📌 Módulo do Plugin: Cálculos de Redes de Drenagem
+	⏳ Projeto futuro
+	
+	🛠 Verifique se sua máquina possui todos os Módulos Python necessários instalados
+
+	⚙️ pip install pyqtgraph
+	⚙️ pip install simplekml
+	⚙️ pip install PyOpenGL
+	⚙️ pip install requests
+	⚙️ pip install openpyxl
+	⚙️ pip install Pillow
+	⚙️ pip install ezdxf
+	⚙️ pip install numpy
+	⚙️ pip install lxml
+
+tracker=https://github.com/LeoGomes21/Tempo_Salvo_Tools_v1.0/issues
+repository=https://github.com/LeoGomes21/Tempo_Salvo_Tools_v1.0
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=kmz, kml, dxf, dae, stl, obj, raster, export, mash, 3D, graphic
+
+homepage=https://www.youtube.com/watch?v=FmtvaKPe7ow&t=1s
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
+# Changelog
+changelog= 1.0
+    📓 Gerenciar Camadas: Linhas
+    📓 Gerenciar Camadas: Polígonos
+    📓 Gerenciar Camadas: Pontos
+    📓 Gerenciar Camadas: Rasters
+	📓 Gerenciar Camadas: Malhas
+
+	1.0
+    ♻️ Módulos Especializados:
+		✅ Gerar curvas de nível 3D.
+		✅ Gerar setas sobre MDT.
+		✅ Extrair cotas de raster.
+		✅ Gerar grades UTM/geográficas.
+		✅ Exportar Fotos para KMZ.
+		✅ Converter entre linhas/polígonos
+		✅ Operações sobre Linhas
+		✅ Linhas Dentro de Polígonos
+		✅ Criação de Malhas
+		✅ Converte para Malhas
+		✅ Gerar Platô sobre MDT
+		✅ Calcular Volumes entre MDTs
+		✅ Gráfico com Talude 2D
+		✅ Gráficos de Estruturas Solar
